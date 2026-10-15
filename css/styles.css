@@ -1,0 +1,56 @@
+/* 
+  Name: Deontae Thomas
+  Date: 10/15/26
+  File: styles.css
+*/
+
+/* CSS Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global / Body Styles */
+body {
+    background-color: #417589;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
+    background-color: #e3eef2;
+    font-family: Georgia, Times, serif;
+}
+
+main h2 {
+    color: #213B45;
+}
+
+main p {
+    font-size: 1.25em;
+    color: #0F252E;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #417589;
+}
+
+main ul {
+    list-style-type: square;
+    font-size: 1.15em;
+}
+
+/* Action span style rule */
+span.action {
+    font-weight: bold;
+    color: #213B45;
+}

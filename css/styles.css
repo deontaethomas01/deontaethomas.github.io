@@ -1,25 +1,69 @@
 /* 
-  Name: Deontae Thomas
-  Date: 10/15/26
-  File: styles.css
+   Name: Deontae Thomas
+   Date: 10/15/26
+   File Name: styles.css
 */
 
 /* CSS Reset */
-*, *::before, *::after {
-    box-sizing: border-box;
+body, header, nav, main, footer, img, h1, h3 {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
-/* Global / Body Styles */
+/* Global Body Styles */
 body {
     background-color: #417589;
 }
 
+/* Responsive Image Rules */
 img {
     max-width: 100%;
     display: block;
-    height: auto;
+}
+
+/* Style rules for header content */
+header {
+    text-align: center;
+    color: #e3eef2;
+    padding: 1%;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: Garamond, Times, serif;
+}
+
+header h3 {
+    font-style: italic;
+    font-size: 1.25em;
+    font-family: Futura, Arial, sans-serif;
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #213b45;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 /* Style rules for main content */
@@ -49,8 +93,27 @@ main ul {
     font-size: 1.15em;
 }
 
-/* Action span style rule */
-span.action {
+/* Custom Text Classes & ID Selectors */
+.action {
+    font-size: 1.25em;
+    color: #213b45;
     font-weight: bold;
-    color: #213B45;
+    text-variant-caps: all-small-caps; /* used to set text to small caps */
+}
+
+#deep {
+    color: #213b45;
+}
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    color: #e3eef2;
+    font-weight: bold;
+}
+
+footer a {
+    color: #e3eef2;
+    text-decoration: none;
 }

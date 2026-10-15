@@ -93,12 +93,12 @@ main ul {
     font-size: 1.15em;
 }
 
-/* Custom Text Classes & ID Selectors */
+
 .action {
     font-size: 1.25em;
     color: #213b45;
     font-weight: bold;
-    text-variant-caps: all-small-caps; /* used to set text to small caps */
+    font-variant-caps: all-small-caps; /* used to set text to small caps */
 }
 
 #deep {
